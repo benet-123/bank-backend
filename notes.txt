@@ -1,0 +1,67 @@
+server creation=nodejs+express
+
+Basic commands
+-----------------
+1)Creation of the package.json using: npm init commands
+2)craetion of the node modules using: npm i express (installing express)
+
+
+basic steps
+--------------
+1)creating folder (bankapp server)
+2)create package.json:npm init
+3)install express port
+4)craete index.json
+5)import express inside the index.json
+6)craete application using express
+7)setup portnumber:3000
+8)resolving http requests
+  GET: To get the http requests
+  POST: to post the data
+  PUT:update the data partially
+  PATCH:update the data completely
+  DELETE:to delete the data  completely
+
+9)HTTP RESPONSE CODE:
+  1xx-information
+  2xx-successfull
+  3xx-redirection
+  4xx-client error
+  5xx-server error
+
+  10)JWT token:
+  install JWT -npm i  jsonwebtoken
+  to generate a token - sign()
+  
+
+11)Middleware token
+  it comes in the middle of the request and the response cycle of the nodejs execution process
+  2 types:
+    1)application specific Middleware:for entire application
+     3 parameters: a)req
+                   b)res
+                   c)next
+    2)router specific Middleware:used for only specific router Path
+    validate the token using: verify() method so we need jwtwebtoken
+
+12)Database integration
+  1)install  moongose :npm i moongose
+
+13)Asynchronus function resolving -promise
+1) Resolving state: then()
+2) reject state:catch()
+
+14)CORS :Cross origin resource sharing
+  install cors- npm i cors used to conncet two ports and to pass the data eralier ew gave through thunder as requests
+  port 4200(angular) ----- request ------> 3000(node)
+
+
+ 15) Asynchronus call -RxJs- (Reactive Extension for javascript)  its a library
+ incase of JS :promise 
+           TS :RxJs
+
+      two methods of rxjs:
+          1) resolved -subscribe method
+          2) reject -catch method
+
+
